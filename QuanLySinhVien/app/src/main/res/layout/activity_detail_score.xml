@@ -53,7 +53,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.15"
         android:background="@color/colorBackgroundLoginOne"
         android:orientation="horizontal">
 
@@ -95,7 +95,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.9"
+        android:layout_weight="0.85"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp">
