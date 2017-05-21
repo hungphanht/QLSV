@@ -98,10 +98,11 @@
                         android:gravity="center|left">
 
                         <TextView
-                            android:textSize="@dimen/textsizeInfo"
+                            android:id="@+id/textView3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/Name" />
+                            android:text="@string/LastName"
+                            android:textSize="@dimen/textsizeInfo" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -111,6 +112,43 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtLastName"
+                            android:textSize="@dimen/textsizeInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nguyễn Văn Phong"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorUserInfoRight" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/borderbottom">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left">
+
+                        <TextView
+                            android:textSize="@dimen/textsizeInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/FirstName" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right">
+
+                        <TextView
+                            android:id="@+id/txtFirstName"
                             android:textSize="@dimen/textsizeInfo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -146,6 +184,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtMSSV"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -181,6 +220,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtPhone"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -216,6 +256,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtBirthday"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -251,6 +292,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtPlaceOfBirth"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -286,6 +328,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtGender"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -321,6 +364,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtNation"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -357,6 +401,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtAddress"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -392,6 +437,7 @@
                         android:gravity="center|right">
 
                         <TextView
+                            android:id="@+id/txtClass"
                             android:textSize="@dimen/textsizeInfo"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"

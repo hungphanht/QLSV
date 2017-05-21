@@ -23,7 +23,8 @@
     <string name="fragment_login_user_hint">Mã số sinh viên</string>
     <string name="cbText">Ghi nhớ tài khoản?</string>
     <!-- user info-->
-    <string name="Name">Họ và Tên</string>
+    <string name="LastName">Họ</string>
+    <string name="FirstName">Tên</string>
     <string name="MSSV">MSSV</string>
     <string name="Phone">SĐT</string>
     <string name="Birthday">Ngày Sinh</string>
