@@ -7,7 +7,7 @@ import android.util.Log;
  */
 
 public class SettingAPI {
-    private static final String APILogin ="Login";
+    private static final String APILogin ="LoginApi";
     public static String TOKEN = null;
 
     public static String getBaseUrl(String api) {

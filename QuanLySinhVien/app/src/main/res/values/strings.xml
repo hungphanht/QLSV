@@ -18,6 +18,8 @@
     <string name="logout">Đăng xuất</string>
     <string name="cancel">Trở về</string>
     <!-- login -->
+    <string name="Complete">V</string>
+    <string name="Error">Đăng nhập</string>
     <string name="login">Đăng nhập</string>
     <string name="fragment_login_password_hint">Mật khẩu</string>
     <string name="fragment_login_user_hint">Mã số sinh viên</string>
